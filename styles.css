@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(0, 255, 204);
+    font-family: Verdana, sans-serif;
+}
+
+article,
+footer {
+    background-color: rgb(6, 255, 102);
+}
+
+
+article {
+    padding: 0 10px;
+
+}
+
+
+
+main {
+
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;*/
+
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+footer {
+    margin-top: 10px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
